@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AFDAF1"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/songListView"
+        android:layout_width="match_parent"
+        android:layout_height="588dp"
+        android:layout_above="@id/playButton"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="95dp"
+        android:backgroundTint="#FACAE3AD" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="#1E8F23"
+        android:shadowColor="#4CAF50"
+        android:text="Play"
+        android:textColor="#000000"
+        android:textColorHighlight="#009688"
+        android:textColorHint="#8BC34A"
+        android:textColorLink="#009688" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/playButton"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="49dp"
+        android:max="300"
+        android:progress="0" />
+
+    <Button
+        android:id="@+id/pauseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#FF9800"
+        android:text="Pause" />
+
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="#ED2727"
+        android:text="Stop" />
+
+</RelativeLayout>

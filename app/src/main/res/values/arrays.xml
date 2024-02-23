@@ -1,0 +1,14 @@
+<resources>
+    <string-array name="songs">
+        <item>xue_hao_hao</item>
+        <item>cancion2</item>
+        <item>cancion3</item>
+        <item>cancion4</item>
+        <item>cancion5</item>
+        <item>cancion6</item>
+        <item>cancion7</item>
+        <item>cancion8</item>
+        <item>cancion9</item>
+        <item>cancion10</item>
+    </string-array>
+</resources>
